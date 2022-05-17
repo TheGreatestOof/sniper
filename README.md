@@ -42,7 +42,8 @@ $ npm run bot
 If you decide to host your wonderful snipe bot on top.gg, it can now post statistics like server count to the bot page.
 But before you do this, the topgg-autoposter library must be installed.
 
-```npm i topgg-autoposter
+```
+$ npm i topgg-autoposter
 ```
 
 In the field for 'your top.gg token', you need to enter the token from your bot dashboard's edit page -> webhooks. This is NOT the same as your Discord bot token.
