@@ -37,6 +37,16 @@ $ npm run bot
 > 
 > With [guild id] they will be available only within the guild specified and will update instantly.
 
+## Top.gg Support
+
+If you decide to host your wonderful snipe bot on top.gg, it can now post statistics like server count to the bot page.
+But before you do this, the topgg-autoposter library must be installed.
+
+```npm i topgg-autoposter
+```
+
+In the field for 'your top.gg token', you need to enter the token from your bot dashboard's edit page -> webhooks. This is NOT the same as your Discord bot token.
+
 ## Dockerfile instructions
 An [example Dockerfile](Dockerfile.example) has been included. Modify line 12 to change the guild id. If you want to make the bot global, simply comment out line 12.
 
