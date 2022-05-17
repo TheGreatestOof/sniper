@@ -47,6 +47,7 @@ $ npm i topgg-autoposter
 ```
 
 In the field for 'your top.gg token', you need to enter the token from your bot dashboard's edit page -> webhooks. This is NOT the same as your Discord bot token.
+You must add this in the index.js file present in the src folder. It's at the bottom of the file. 
 
 ## Dockerfile instructions
 An [example Dockerfile](Dockerfile.example) has been included. Modify line 12 to change the guild id. If you want to make the bot global, simply comment out line 12.
