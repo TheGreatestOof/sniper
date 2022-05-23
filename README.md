@@ -11,7 +11,7 @@
 1. Run:
 
 ```bash
-$ git clone https://github.com/DankMemer/sniper.git
+$ git clone https://github.com/TheGreatestOof/sniper.git
 $ cd ./sniper
 ```
 
