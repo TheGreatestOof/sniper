@@ -9,6 +9,7 @@ const client = new Client({
 });
 const { token } = require("../config.json");
 const Paginator = require("./paginator");
+const { AutoPoster } = require('topgg-autoposter')
 
 const snipes = {};
 const editSnipes = {};
@@ -139,5 +140,10 @@ client.on("interactionCreate", async (interaction) => {
 		);
 	}
 });
+const ap = AutoPoster('Your Top.gg Token', client)
+
+ap.on('posted', () => {
+  console.log('Posted stats to Top.gg!')
+})
 
 client.login(token);
