@@ -62,7 +62,7 @@ Access to Data is only permitted to Bot developer, and only in the scope require
 
 ## Storage of Data
 
-Data is stored in a MongoDB database. The database is secured to prevent external access, however no guarantee is provided and the Bot owners assume no liability for the unintentional or malicious breach of Data. In the event of an unauthorised Data access, users will be notified through the Discord client application.
+Data is stored securely in a private server hosted on DigitalOcean. This data is only accessible to the sole developer of the project. The database is secured to prevent external access, however no guarantee is provided and the Bot owners assume no liability for the unintentional or malicious breach of Data. In the event of an unauthorised Data access, users will be notified through the Discord client application.
 
 ## User Rights
 
